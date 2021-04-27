@@ -1,0 +1,207 @@
+body {
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+}
+
+h1 {
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+.carros h1 {
+    color: red;
+    text-align: left;
+}
+
+.carros h4 {
+    color: greenyellow;
+    margin: 5px;
+}
+
+.bannerTitulo {
+    width: 100%;
+    height: 100%;
+    color: black;
+    text-align: center;
+    background-image: url(images/banner.jpg);
+}
+
+.titulo {
+    color: greenyellow;
+}
+
+.menu{
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu button {
+    background-color: black;
+    color: greenyellow;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.carros {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    display: row;
+}
+
+.carros button {
+    background-color: greenyellow;
+    color: black;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: greenyellow;
+    text-align: center;
+    color: black;
+}
+
+.footer p {
+    margin: 0px;
+}
+
+.imgFooter footer {
+    text-align: center;
+}
+
+.imgFooter button {
+    background-color: greenyellow;
+    border-radius: 10px;
+}
+
+    @media(min-width: 901px){
+
+        .imgFooter button {
+            width: 30%;
+        }
+
+        .bannerTitulo {
+            width: 100%;
+            height: 100%;
+        }
+
+        .fieldsetCarros{
+            margin: 15px;
+        }
+
+        .carros img {
+            height: 50%;
+            width: 50%;
+        }
+        .carros button {
+            width: 50%;
+        }
+
+        .carros footer { 
+            background-color: black;
+            margin: 0px;
+        }
+
+        .carros ul {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .carros .nextlastBtn {
+            width: 10%;
+        }
+
+        .carros .comprarBtn {
+            margin: 0px;
+        }
+
+        .catalogo {
+            width: 30%;
+        }
+        
+        .tituloTxt h1 {
+            width: 100%;
+            height: 30%;
+        }
+
+        .footer {
+            height: 50%;
+            width: 100%;
+        }
+    }
+
+    @media(max-width: 900px){
+
+        .imgFooter ul {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .imgFooter button {
+            width: 30%;
+        }
+
+        .carros {
+            text-align: center;
+            display: inline-block;
+        }
+
+        .text h1 {
+            text-align: center;
+        }
+
+        .bannerTitulo {
+            width: 100%;
+            height: 100%;
+        }
+
+        .fieldsetCarros{
+            margin: 15px;
+        }
+
+        .carros img {
+            height: 80%;
+            width: 80%;
+        }
+
+        .carros button {
+            width: 50%;
+        }
+
+        .carros footer { 
+            background-color: black;
+            margin: 0px;
+        }
+
+        .carros ul {
+            align-items: center;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .carros .nextlastBtn {
+            width: 10%;
+        }
+
+        .carros .comprarBtn {
+            margin: 0px;
+        }
+
+        .catalogo {
+            width: 30%;
+        }
+        
+        .tituloTxt h1 {
+            width: 100%;
+            height: 30%;
+        }
+
+        .footer {
+            height: 50%;
+            width: 100%;
+        }
+    }
+
